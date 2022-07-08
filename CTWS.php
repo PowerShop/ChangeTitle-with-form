@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-    <title><?php if (isset($_POST['ok'])) {
+    <title>
+        <?php if (isset($_POST['ok'])) {
                 echo $_POST['title'];
             } else {
                 echo "This is Title!";
-            } ?></title>
+            } ?>
+    </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
